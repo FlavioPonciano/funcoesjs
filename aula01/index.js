@@ -42,6 +42,6 @@ function subtracaoDoisNumeros(primeiroNumeroSubtracao, segundoNumeroSubtracao) {
     return resultado
 }
 
-var mostrarResultado = subtracaoDoisNumeros(primeiroNumeroSubtracao, segundoNumeroSubtracao) //Atribuindo os valores ao resultado
+var resultado = subtracaoDoisNumeros(primeiroNumeroSubtracao, segundoNumeroSubtracao) //Atribuindo os valores ao resultado
 
-document.write(' A subtração é ' + mostrarResultado) //Mostrando o resultado
+document.write(' A subtração é ' + resultado) //Mostrando o resultado

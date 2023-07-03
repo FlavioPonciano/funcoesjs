@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora soma/subtração</title>
+    <style>
+        body {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Soma ou Subtrai: </h1>
+        <p>Primeiro Número: <input type="number" name="recebeNumero1" id="recebeNumero1"></p>
+        <p>Segundo Número: <input type="number" name="recebeNumero2" id="recebeNumero2"></p>
+        <br>
+        <p>Escolha uma opção: </p>
+        <input type="radio" name="operacao" id="escolheSoma" onclick="calculo()"> + Soma </input> <strong>ou</strong>
+        <input type="radio" name="operacao" id="escolheSubtracao" onclick="calculo()"> - Subtração </input>
+        <p>O resultado é: <span id="resultado"></span></p>
+ <script src="index.js"></script>   
+</body>
+</html>
